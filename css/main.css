@@ -31,8 +31,15 @@
 .main__card-topic {
 	font-weight: 700:
 	font-size: 1.125rem;
-
+	line-height: 1.25rem;
 	margin-bottom: 0.625rem; 
+}
+
+.main__card-description {
+	font-weight: 400;
+	font-size: 0.625rem;
+	line-height: 1.125rem;
+	color: #929292;
 }
 
 .main__card-user {

@@ -1,23 +1,23 @@
-mixin topic-card(type, topic, image)
+mixin topic-card(type, topic, image, desc, author, date)
 	.main__card
 		.main__caard-img
-			img.main__card-picture(src=image alt="Изображения")
+			img.main__card-picture(src=image alt="Изображениe")
 		.main__card-type=type
 		.main__card-topic=topic 
 		.main__card-user
-			span.main__card-author Niek Bove
-			span.main__card-date April 8, 2018
+			span.main__card-author=author
+			span.main__card-date=date
 			span.main__card-views 3K Views
-		.main__card-description Structured gripped tpe invisible moduled cups for sauppor firm hold strong powermesh front liner
+		.main__card-description=desc
 
 main
 	div.main
-		+topic-card('Style', 'photo', '../media/png/1.png')
-		+topic-card('Lifestyle', 'photo', '../media/png/2.png')
-		+topic-card('Style', 'photo', '../media/png/3.png')
-		+topic-card('Style', 'photo', '../media/png/4.png')
-		+topic-card('Style', 'photo', '../media/png/5.png')
-		+topic-card('Style', 'photo', '../media/png/6.png')
-		+topic-card('Lifestyle', 'photo', '../media/png/7.png')
-		+topic-card('Style', 'photo', '../media/png/8.png')
-		+topic-card('Style', 'photo', '../media/png/9.png')
+		+topic-card('Style', 'The impact of social media on mental health', '../media/png/1.png', "man walking on the street", "Niek Bove", "April, 8, 2018")
+		+topic-card('Lifestyle', 'Renewable energy sources and their future potential', '../media/png/2.png', "man sitting on the street", "Niek Bove", "March, 8, 2016")
+		+topic-card('Style', 'Ancient civilizations and their contributions to modern society', '../media/png/3.png', "woman staying on the street", "Niek Bove", "November, 26, 2010")
+		+topic-card('Style', 'The science behind dreams and sleep', '../media/png/4.png', "man sitting in the bar", "Niek Bove", "July, 16, 2017")
+		+topic-card('Style', 'The role of artificial intelligence in healthcare', '../media/png/5.png', "people drinking drinks on the street", "Niek Bove", "June, 8, 2017")
+		+topic-card('Style', 'Space exploration: challenges and milestones', '../media/png/6.png', "woman with glasses", "Niek Bove", "April, 1, 2020")
+		+topic-card('Lifestyle', 'Cultural significance of traditional festivals around the world', '../media/png/7.png', "people working in the cafe", "Niek Bove", "September, 5, 2018")
+		+topic-card('Style', 'Ocean pollution and its effects on marine life', '../media/png/8.png', "woman walking in the water", "Niek Bove", "June, 8, 2014")
+		+topic-card('Style', 'The evolution of languages over time', '../media/png/9.png', "cyberpunk ahh photo", "Niek Bove", "April, 4, 2022")
