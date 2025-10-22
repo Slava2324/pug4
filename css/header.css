@@ -11,10 +11,11 @@
 
 .header__top {
 	display: flex;
-	padding: top 1.44rem;
-	padding: bottom 1.61rem;
+	padding-top: 1.44rem;
+	padding-bottom: 1.61rem;
 	align-items: center;
 	justify-content: center;
+	border: solid 0.05rem #E9E9E9;
 }
 
 .header__top_right {
