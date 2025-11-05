@@ -1,6 +1,9 @@
 @import "../css/normalize.css";
+@import "../css/adaptive_font_scale.css";
+
 @import "../css/header.css";
 @import "../css/main.css";
+
 @font-face {
 	font-family: "Roboto";
 	src: url("../font/Roboto.ttf") format("ttf");
