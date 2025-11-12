@@ -157,26 +157,22 @@
 		display: flex;
 		align-items: center;
 	}
-	.header__mobile-cross::before {
+	.header__mobile-cross::before, .header__mobile-cross::after {
 		height: 0.18rem;
 		width: 100%;
 		background-color: black;
 		border-radius: 0.17rem;
 		position: absolute;
 		content: none;
+	}
+	.header__mobile-cross::before {
 		transform: rotate(45deg);
 	}
 	.header__mobile-cross::after {
-		height: 0.18rem;
-		width: 100%;
-		background-color: black;
-		border-radius: 0.17rem;
-		position: absolute;
-		content: none;
 		transform: rotate(-45deg);
 	}
 	.header__close-btn {
-		position: relative;;
+		position: relative;
 		width: 1.61rem;
 		margin-right: 1.76rem;
 	}
@@ -188,7 +184,7 @@
 		position: absolute;
 		height: 0.18rem;
 		background-color: black;
-		animation: 0.3 ease-in-out;
+		animation: 0.3s ease-in-out;
 		border-radius: 0.17rem;
 	}
 	.header__burger-menu::after {
