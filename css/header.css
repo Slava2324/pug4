@@ -96,6 +96,7 @@
     margin-left: 0.28rem;
     transform: translate(0,-25%);
 }
+
 @media (width: 320px) {
 	.header {
 		position: relative;
@@ -119,7 +120,8 @@
 	}
 	.header__top {
 		justify-content: space-between;
-		padding: 0 1rem 0 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	.header__top_right {
 		display: none;
@@ -134,6 +136,7 @@
 		border: solid 0.05rem #E9E9E9;
 		box-sizing: border-box;
 		animation: 0.8s ease-in-out;
+		z-index: 100;
 		background-color: white;
 	}
 	.header__mobile-top {
@@ -213,7 +216,7 @@
     .header {
         position: sticky;
         top: 0;
-        transition: all 0.5s ease-in-out;
+        animation: all 0.5s ease-in-out;
     }
     .header__mobile {
         display: none;
