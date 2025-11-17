@@ -18,8 +18,11 @@ mixin custom-select(name)
 
 header.header
 	.header__mobile
-		.header__mobile_top
+		.header__mobile-top
 			img.header__logo(src="../media/svg/Logotype.svg" alt="")
+			.header__top_right
+				input.header__text-field(type="text" placeholder="Поиск")
+				button.header__search
 			.header__close-btn
 				span.header__mobile-cross
 		.header__bottom_mobile

@@ -78,7 +78,7 @@
 	margin-left: 0.3125rem;
 }
 
-@media(width: 320px) {
+@media(320px <= width < 600px) {
 	.main {
 		margin: 1.875rem 2% 0 2%;
 	}
@@ -88,7 +88,7 @@
 	}
 }
 
-@media(width: 600px) {
+@media(600px <= width < 1024px) {
 	.main {
 		margin: 1.875rem 0 0 4%;
 	}
@@ -101,7 +101,7 @@
 	}
 }
 
-@media(width: 1024px) {
+@media(width >= 1024px) {
 	.main {
 		margin-top: 1.875rem 0 0 0;
 		justify-content: center;
