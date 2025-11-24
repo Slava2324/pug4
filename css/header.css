@@ -240,6 +240,7 @@
     }
     .header__bottom {
         display: flex;
+        margin-bottom: 2.5rem;
     }
     .header__link {
         margin-top: 0;
