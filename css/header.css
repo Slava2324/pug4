@@ -208,6 +208,8 @@
 	}
 	.header__bottom {
 		margin-bottom: 4rem;
+		justify-content: center;
+        display: flex;
 	}
 	.header__mobile {
 		display: none;
@@ -231,7 +233,7 @@
     }
     .header__top {
         position: relative;
-        justify-content: center;
+        
     }
     .header__top_right {
         right: 5rem;
