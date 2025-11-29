@@ -148,6 +148,7 @@
 		align-items: center;
 		padding: 0 0 1.6rem 1.67rem;
 		border: solid 0.05rem #E9E9E9;
+		border-top: none;
 	}
 	.header__mobile-top .header__logo {	
 		width: 8.9rem;
