@@ -234,7 +234,8 @@
     }
     .header__top {
         position: relative;
-        
+        display: flex;
+        justify-content: center;
     }
     .header__top_right {
         right: 5rem;
