@@ -126,15 +126,12 @@
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
-	/*.header__top_right {
-		display: none;
-	}*/
 	.header__link {
 		margin-top: 0.89rem;
 	}
 	.header__mobile {
 		padding: 1.61rem 0 0 0;
-		height: 100vh;
+		height: 65vh;
 		width: 17.8rem;
 		border: solid 0.05rem #E9E9E9;
 		box-sizing: border-box;
@@ -205,7 +202,7 @@
 	.header__top {
 		padding-right: 0;
 		padding-left: 0;
-		justify-content: space-around;
+		justify-content: center;
 	}
 	.header__bottom {
 		margin-bottom: 4rem;
@@ -217,6 +214,9 @@
 	}
 	.header__top_right {
 		display: block;
+	}
+	.header__logo {
+		transform: translateX(4rem);
 	}
 }
 
